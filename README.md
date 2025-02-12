@@ -2,7 +2,7 @@
 
 To showcase my skills for my upcoming interview with Fulcrum, I have built a chatbot and created data visualizations with the intention of helping clients better understand their policies. 
 
-[See website here](https://fulcrum.streamlit.app/)
+[See website here](https://fulcrum.streamlit.app/).
 
 ## Chatbot
 [Fulcrum](https://www.withfulcrum.com/) gives AI-Powered products to insurance brokerages. They give clients 
@@ -15,7 +15,7 @@ Another feature Fulcrum offers is the ability to summarize active policies for t
          The data used to generate these visualizations are completely random and only \
          used for visualization purposes.
 
-### How to run it on your own machine
+## How to run it on your own machine
 
 1. Install the requirements
 
