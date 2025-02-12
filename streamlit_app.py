@@ -15,6 +15,7 @@ st.subheader("AI Chatbot: Policy Proposal Help")
 st.write("[Fulcrum](https://www.withfulcrum.com/) gives AI-Powered products to insurance brokerages. They give clients \
           the ability ask questions on generated and active policies. Inspired by such work, I have created a simple chatbot \
          built to help users understand commercial policy proposals and ask questions on it.")
+st.write('See chatbot here: [Policy Assistant Chatbot][https://chatgpt.com/g/g-67acfa0e67ac8191b09659322b76c2d0-policy-assistant]'
 
 # # Initialize chat history
 # if "messages" not in st.session_state:
@@ -39,22 +40,22 @@ st.write("[Fulcrum](https://www.withfulcrum.com/) gives AI-Powered products to i
 #     # Add assistant response to chat history
 #     st.session_state.messages.append({"role": "assistant", "content": response})
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+# openai.api_key = st.secrets["OPENAI_API_KEY"]
 
-# User input
-user_input = st.text_area("Enter your message:", "")
+# # User input
+# user_input = st.text_area("Enter your message:", "")
 
-if st.button("Send"):
-    if user_input:
-        with st.spinner("Generating response..."):
-            response = openai.chat.completions.create(
-                model="gpt-4-turbo",  # Replace with your custom GPT's model name if different
-                messages=[{"role": "user", "content": user_input}],
-            )
-            st.write("### Response:")
-            st.write(response["choices"][0]["message"]["content"])
-    else:
-        st.warning("Please enter a message.")
+# if st.button("Send"):
+#     if user_input:
+#         with st.spinner("Generating response..."):
+#             response = openai.chat.completions.create(
+#                 model="gpt-4-turbo",  # Replace with your custom GPT's model name if different
+#                 messages=[{"role": "user", "content": user_input}],
+#             )
+#             st.write("### Response:")
+#             st.write(response["choices"][0]["message"]["content"])
+#     else:
+#         st.warning("Please enter a message.")
          
 
 st.subheader("Policy Data Visualizations: POMS")
