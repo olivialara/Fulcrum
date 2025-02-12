@@ -15,7 +15,10 @@ st.subheader("AI Chatbot: Policy Proposal Help")
 st.write("[Fulcrum](https://www.withfulcrum.com/) gives AI-Powered products to insurance brokerages. They give clients \
           the ability ask questions on generated and active policies. Inspired by such work, I have created a simple chatbot \
          built to help users understand commercial policy proposals and ask questions on it.")
-st.write('See chatbot here: [Policy Assistant](https://chatgpt.com/g/g-67acfa0e67ac8191b09659322b76c2d0-policy-assistant)')
+st.write('See chatbot here: [Policy Assistant](https://chatgpt.com/g/g-67acfa0e67ac8191b09659322b76c2d0-policy-assistant).')
+st.write("Note: the user will be prompted to upload a policy proposal. Feel free to download this \
+         [POMS policy proposal](https://www.boarddocs.com/ca/conejo/Board.nsf/files/BGZSX374BBC8/$file/POMS%20Commerical%20Insurance%20Proposal.pdf) and upload \
+         to the chatbot if you don't already have one readily available to you.")
 
 # # Initialize chat history
 # if "messages" not in st.session_state:
