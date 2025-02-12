@@ -3,9 +3,9 @@
 To showcase my skills for my upcoming interview with Fulcrum, I have built a chatbot and created data visualizations with the intention of helping clients better understand their policies. 
 
 ## Chatbot
-Fulcrum](https://www.withfulcrum.com/) gives AI-Powered products to insurance brokerages. They give clients 
+[Fulcrum](https://www.withfulcrum.com/) gives AI-Powered products to insurance brokerages. They give clients 
           the ability ask questions on generated and active policies. Inspired by such work, I have created a simple chatbot 
-         built to help users understand commercial policy proposals and ask questions on it.")
+         built to help users understand commercial policy proposals and ask questions on it.
 
 ## Data Visualizations
 Another feature Fulcrum offers is the ability to summarize active policies for their accounts. In this case study, 
