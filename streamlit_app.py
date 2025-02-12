@@ -47,7 +47,7 @@ user_input = st.text_area("Enter your message:", "")
 if st.button("Send"):
     if user_input:
         with st.spinner("Generating response..."):
-            response = openai.ChatCompletion.create(
+            response = openai.chat.completions.create(
                 model="gpt-4-turbo",  # Replace with your custom GPT's model name if different
                 messages=[{"role": "user", "content": user_input}],
             )
