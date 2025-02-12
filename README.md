@@ -2,6 +2,8 @@
 
 To showcase my skills for my upcoming interview with Fulcrum, I have built a chatbot and created data visualizations with the intention of helping clients better understand their policies. 
 
+[See website here](https://fulcrum.streamlit.app/)
+
 ## Chatbot
 [Fulcrum](https://www.withfulcrum.com/) gives AI-Powered products to insurance brokerages. They give clients 
           the ability ask questions on generated and active policies. Inspired by such work, I have created a simple chatbot 
@@ -12,8 +14,6 @@ Another feature Fulcrum offers is the ability to summarize active policies for t
          I created some policy data visualizations for one of Fulcrum's current clinets, [POMS](https://www.pomsassoc.com/). 
          The data used to generate these visualizations are completely random and only \
          used for visualization purposes.
-
-[See website here](https://fulcrum.streamlit.app/)
 
 ### How to run it on your own machine
 
